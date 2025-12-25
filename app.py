@@ -50,36 +50,8 @@ def get_next_id():
 
 # Fungsi: Kirim email notifikasi ke admin
 def kirim_email_notifikasi(jenis, data, gambar_path=None):
-    subject = f"[PIPP] {jenis} Baru Masuk"
-    body = f"Ada {jenis.lower()} baru di aplikasi PIPP BPJS Kesehatan!\n\n"
-    body += f"Waktu: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n"
-    for key, value in data.items():
-        body += f"{key}: {value}\n"
-    body += "\nStatus: Sedang Ditindaklanjuti"
-
-    msg = MIMEMultipart()
-    msg['From'] = EMAIL_PENGIRIM
-    msg['To'] = EMAIL_PENERIMA
-    msg['Subject'] = subject
-    msg.attach(MIMEText(body, 'plain', 'utf-8'))
-
-    if gambar_path and os.path.exists(gambar_path):
-        with open(gambar_path, "rb") as attachment:
-            part = MIMEBase('application', 'octet-stream')
-            part.set_payload(attachment.read())
-        encoders.encode_base64(part)
-        part.add_header('Content-Disposition', f'attachment; filename= {os.path.basename(gambar_path)}')
-        msg.attach(part)
-
-    try:
-        server = smtplib.SMTP('smtp.gmail.com', 587)
-        server.starttls()
-        server.login(EMAIL_PENGIRIM, EMAIL_PASSWORD)
-        server.sendmail(EMAIL_PENGIRIM, EMAIL_PENERIMA, msg.as_string())
-        server.quit()
-        print("Email notifikasi berhasil dikirim!")
-    except Exception as e:
-        print(f"Gagal kirim email: {e}")
+    print("EMAIL DINONAKTIFKAN DI PRODUCTION")
+    return
 
 # Fungsi: Simpan laporan baru dengan ID urut dan status default
 def simpan_laporan(jenis, data, gambar_nama=None):
@@ -761,4 +733,5 @@ def export_pdf():
 
 # Jalankan aplikasi
 if __name__ == '__main__':
+
     app.run(host='0.0.0.0', port=8080)
