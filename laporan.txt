@@ -1,0 +1,67 @@
+[2025-12-25 20:28:19] PENGADUAN | ID:3
+Nama: dinda
+Jenis Pengaduan: pelayanan
+Isi Pengaduan: blabla
+Status: Sedang Ditindaklanjuti
+--------------------------------------------------
+[2025-12-25 20:28:44] PENGADUAN | ID:4
+Nama: jembut
+Jenis Pengaduan: pelayanan
+Isi Pengaduan: najis amat
+
+
+Status: Selesai
+--------------------------------------------------
+[2025-12-25 20:44:22] CEK STATUS KEPESERTAAN | ID:5
+No BPJS: 3175040607981001
+Status: Selesai
+--------------------------------------------------
+[2025-12-25 20:50:43] CEK STATUS KEPESERTAAN | ID:6
+No BPJS: 3175040607981001
+Status: Sedang Ditindaklanjuti
+--------------------------------------------------
+[2025-12-25 21:04:52] CEK STATUS KEPESERTAAN | ID:7
+No BPJS: 0001520997434
+Status: Sedang Ditindaklanjuti
+--------------------------------------------------
+[2025-12-25 21:06:19] CEK STATUS KEPESERTAAN | ID:8
+No BPJS: 0001520997434
+Status: Sedang Ditindaklanjuti
+--------------------------------------------------
+[2025-12-25 21:14:06] CEK STATUS KEPESERTAAN DENGAN NIK | ID:9
+NIK: 3175040607981001
+Status: Sedang Ditindaklanjuti
+--------------------------------------------------
+[2025-12-25 21:18:17] CEK STATUS KEPESERTAAN DENGAN NIK | ID:10
+NIK: 5202100603960001
+Status: Sedang Ditindaklanjuti
+--------------------------------------------------
+[2025-12-25 21:18:59] CEK STATUS KEPESERTAAN DENGAN NIK | ID:11
+NIK: 3175040607981001
+Status: Sedang Ditindaklanjuti
+--------------------------------------------------
+[2025-12-25 21:27:52] CEK STATUS KEPESERTAAN | ID:12
+Jenis Pencarian: NIK
+Identifier: 3175040607981001
+Status: Sedang Ditindaklanjuti
+--------------------------------------------------
+[2025-12-25 21:32:04] CEK STATUS KEPESERTAAN | ID:13
+Jenis Pencarian: NIK
+Identifier: 3175040607981001
+Status: Sedang Ditindaklanjuti
+--------------------------------------------------
+[2025-12-25 21:32:33] CEK STATUS KEPESERTAAN | ID:14
+Jenis Pencarian: NIK
+Identifier: 3175040607981001
+Status: Sedang Ditindaklanjuti
+--------------------------------------------------
+[2025-12-25 21:33:26] CEK STATUS KEPESERTAAN | ID:15
+Jenis Pencarian: NIK
+Identifier: 3175040607981001
+Status: Sedang Ditindaklanjuti
+--------------------------------------------------
+[2025-12-25 21:38:01] CEK STATUS KEPESERTAAN | ID:16
+Jenis Pencarian: NIK
+Identifier: 3175040607981001
+Status: Sedang Ditindaklanjuti
+--------------------------------------------------
